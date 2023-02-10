@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Vazir;
+  src: url('/public/fonts/Vazir-Regular.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: rYekan;
+  src: url("/public/fonts/yeknBakh/Yekan Bakh FaNum 04 Regular.woff") format('woff');
+  src: url("/public/fonts/yeknBakh/Yekan Bakh FaNum 04 Regular.eot");
+  src: url("/public/fonts/yeknBakh/Yekan Bakh FaNum 04 Regular.ttf") format('truetype');
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Vazir', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: 'Vazir', sans-serif!important;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
